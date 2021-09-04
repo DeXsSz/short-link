@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1rem = 10 px **/
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #ffffff;
+    color: #000000;
+}
+.container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Reset Attributes with labels*/
+img {
+    max-width: 100%;
+}
+textarea {
+    font-family: 'Roboto', sans-serif !important;
+}
+input {
+    font-family: 'Roboto', sans-serif !important;
+}

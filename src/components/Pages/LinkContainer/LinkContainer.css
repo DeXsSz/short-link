@@ -1,0 +1,33 @@
+.link__title {
+    text-align: center;
+    /* color: rgb(22, 22, 22); */
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.link__container {
+    /* min-height: 100vh; */
+    display: grid;
+    grid-gap: 2rem 2rem;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+h1 {
+    font-size: 3.4rem;
+    color: #202020;
+    font-weight: 300;
+}
+@media only screen and (min-width: 425px) {
+    .link__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 768px) {
+    .link__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .link__container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

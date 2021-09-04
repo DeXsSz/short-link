@@ -1,0 +1,16 @@
+.btnAddLink {
+    color: #ffb80b;
+    font-size: 6rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 3.6rem;
+    bottom: 2rem;
+    transition: transform 0.02s ease;
+    outline: none;
+}
+.btnAddLink:hover {
+    transform: scale(1.06);
+}
