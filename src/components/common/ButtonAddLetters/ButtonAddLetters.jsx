@@ -4,7 +4,7 @@ import './ButtonAddLetters.css'
 export const ButtonAddLetters = ({type = 'button', text}) => {
     return (
         <button type={type} className="btnAddLetters">
-            {text}
+            {text}aa
         </button>
     )
 }
