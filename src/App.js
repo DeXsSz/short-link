@@ -1,14 +1,13 @@
 import { useEffect } from 'react';
-import Header from './components/layout/Header/Header.jsx';
-import LinkContainer from './components/Pages/LinkContainer/LinkContainer.jsx';
 import './consts/colors.css';
+import { UserProvider } from './stateManagement/context/UserProvider.js';
+import Home from './views/Home/Home';
 function App() {
     useEffect(() => {});
     return (
-        <>
-            <Header />
-            <LinkContainer />
-        </>
+        <UserProvider>
+            <Home />
+        </UserProvider>
     );
 }
 

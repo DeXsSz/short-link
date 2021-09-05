@@ -48,3 +48,9 @@
     outline: var(--azul) auto 2px;
     font-family: 'Roboto', sans-serif;
 }
+.errorModal {
+    color: rgb(179, 21, 0);
+    text-transform: initial !important;
+    font-weight: 300;
+    font-size: 1.4rem;
+}

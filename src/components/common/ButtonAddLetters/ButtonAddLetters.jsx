@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import './ButtonAddLetters.css'
 export const ButtonAddLetters = ({type = 'button', text}) => {
     return (
-        <button type={type} className="btnAddLetters">
-            {text}aa
+        <button type={type} className="btnAddLetters" >
+            {text}
         </button>
     )
 }
