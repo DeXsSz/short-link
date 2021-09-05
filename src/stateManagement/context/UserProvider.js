@@ -35,7 +35,7 @@ export const UserProvider = props => {
     };
     const detectarUsuario = async () => {
         try {
-            auth.onAuthStateChanged(user => {
+            await auth.onAuthStateChanged(user => {
                 if (user) {
                     setUser({
                         name: user.displayName,
