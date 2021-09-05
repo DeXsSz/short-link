@@ -8,7 +8,7 @@ export const AppRoutes = () => {
             <Header />
             <Switch>
                 <Route exact path="/links" component={LinkContainer} />
-                <Redirect to="/links" />
+                <Redirect from="/" push to="/links" />
             </Switch>
         </Router>
     );

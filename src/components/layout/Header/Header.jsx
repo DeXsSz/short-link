@@ -18,7 +18,7 @@ const Header = () => {
             </div>
             <div className="header__time">
                 <div className="container header__timeInfo">
-                    <p className="header__textoDate">Versión: 0.0.1</p>
+                    <p className="header__textoDate">Versión: 0.0.0</p>
                     {/* <p className="header__textoDate">Viernes 3 de Septiembre. Hora: 20:38</p> */}
                 </div>
             </div>
