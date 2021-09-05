@@ -1,6 +1,6 @@
 export const links = [
     {
-        title: 'ArteAplicado: Animacion y Diseño 2D',
+        title: 'ArteAplicado: Diseño y Animacion2D ',
         desc: 'Materia Unraf - Lunes de 18h a 22h',
         link: 'https://campusvirtual.unraf.edu.ar/course/view.php?id=2774',
     },

@@ -12,7 +12,7 @@ const Header = () => {
                     <img src={logo} alt="Logo de Short Link" />
                 </div>
                 <div className="header__item">
-                    <button type="button" onClick={cerrarSesion}>Cerrar Sesión</button>
+                    <button type="button" onClick={cerrarSesion} className="button">Cerrar Sesión</button>
                     {/* <Link to="/login"><Button text="Cerrar Sesión" /></Link> */}
                 </div>
             </div>
