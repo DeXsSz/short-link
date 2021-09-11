@@ -8,11 +8,7 @@ function App() {
     useEffect(() => {});
     return (
         <UserProvider>
-            <Router>
-                <Switch>
-                    <Route path="/" component={Home} />
-                </Switch>
-            </Router>
+            <Home />
         </UserProvider>
     );
 }
